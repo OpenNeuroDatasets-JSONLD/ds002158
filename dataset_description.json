@@ -13,7 +13,7 @@
         "Jose del R. Millan"
     ],
     "BIDSVersion": "1.1.1",
-    "DatasetDOI": "TODO: eventually a DOI for the dataset",
+    "DatasetDOI": "10.18112/openneuro.ds002158.v1.0.0",
     "Funding": [
         "Bertarelli Foundation",
         "Swiss National Science Foundation"
@@ -22,5 +22,6 @@
     "Name": "Simultaneous eeg-fmri for a speeded discrimination task with confidence",
     "ReferencesAndLinks": [
         "List of papers or websites"
-    ]
+    ],
+    "License": "CC0"
 }
