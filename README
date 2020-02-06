@@ -1,4 +1,6 @@
-This dataset ... 
+This dataset contains the data to replicate 
+
+Pereira, M., Faivre, N., Iturrate, I., Wirthlin, M., Serafini, L., Martin, S., ... & Millan, J. D. R. (2018). Disentangling the origins of confidence in speeded perceptual judgments through multimodal imaging. BioRxiv, 496877.
 
 EEG data
 
@@ -8,12 +10,12 @@ fMRI data
 
 fMRI events
 
+preregistration: https://osf.io/a5qmv/
 
-TODO: Provide description for the dataset -- basic details about the study, possibly pointing to pre-registration (if public or embargoed)
+EEG PREPROCESSING
+MR-gradient artifacts were removed using sliding window average template subtraction. TP10 electrode on the right mastoid was used to detect heartbeats for ballistocardiogram artifact (BCG) removal using a semi-automatic procedure in BrainVision Analyzer 2. Data were then filtered using a Butterworth, 4th order zero-phase (two-pass) bandpass filter between 1 and 10 Hz, epoched [-0.2, 0.6 s] around the response onset (i.e. the button press in the active condition or the appearance of the virtual hand for in observation condition), re-referenced to a common average, and input to independent component analysis (ICA) to remove residual BCG and ocular artifacts. In order to ensure numerical stability when estimating the independent components, we retained 99% of the variance from the electrode space, leading to an average of 19 (SD = 6) components estimated for each participant and condition. Independent components (ICs) were then fitted with a dipolar source localization method (66). ICs whose dipole lied outside the brain, or resembled muscular or ocular artifacts were eliminated. A total of 8 (SD = 3) components were finally kept. All preprocessing steps were performed using EEGLAB and in-house scripts under Matlab (The MathWorks, Inc., Natick, Massachusetts, United States).
+ 
+FMRI PREPROCESSING
+We modeled the BOLD signal using a general linear model (GLM) with two separate regressors (stick functions at stimulus onset) for the active and observation condition as well as their spatial and temporal derivatives. We then parametrically modulated the regressors with three behavioral variables: the confidence ratings, the response times, and the numerosity difference between the two arrays of dots (i.e., perceptual evidence). Empirical cross-correlation between regressors confirmed limited collinearity for the active (resp. observation) condition (max(abs(R)) = 0.26 ± 0.02 resp., max(abs(R)) = 0.25 ± 0.02). Bad trials as defined in the behavioral analysis section were modeled by two separate regressors (one for active and one for observation) and their spatial and temporal derivatives. We added six realignments parameters as regressors of no interest. All second-level (group-level) results are reported at a significance-level of p < 0.05 using cluster-extent family-wise error (FWE) correction with a voxel-height threshold of p < 0.001. We used the anatomical automatic labelling (AAL) atlas for brain parcellation (Tzourio-Mazoyer et al., 2002). 
 
 
-
-METHODS OF EEG PREPROCESSING
-
-
-METHODS FOR FMRI PREPROCESSING
