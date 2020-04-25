@@ -4,7 +4,7 @@
   "BandwidthPerPixelPhaseEncode": 15.964,
   "BaseResolution": 108,
   "BodyPartExamined": "BRAIN",
-  "CogAtlasID": "TODO",
+  "CogAtlasID": "n/a",
   "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
   "ConversionSoftwareVersion": "v1.0.20180622 GCC6.3.0",
@@ -55,7 +55,7 @@
   "SoftwareVersions": "syngo_MR_E11",
   "SpacingBetweenSlices": 2,
   "StationName": "AWP66054",
-  "TaskName": "TODO: full task name for main",
+  "TaskName": "ActiveObservation",
   "TotalReadoutTime": 0.0620609,
   "TxRefAmp": 262.766,
   "dcmmeta_affine": [
