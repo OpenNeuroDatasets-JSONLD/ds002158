@@ -55,7 +55,7 @@
   "SoftwareVersions": "syngo_MR_E11",
   "SpacingBetweenSlices": 2,
   "StationName": "AWP66054",
-  "TaskName": "ActiveObservation",
+  "TaskName": "main",
   "TotalReadoutTime": 0.0620609,
   "TxRefAmp": 262.766,
   "dcmmeta_affine": [
