@@ -18,7 +18,7 @@
         "Bertarelli Foundation",
         "Swiss National Science Foundation"
     ],
-    "HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors. Also, please include the following message: 'This data was obtained from the Open Neuro database.'",
+    "HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors by citing: \nPereira, M., Faivre, N., Iturrate, I., Wirthlin, M., Serafini, L., Martin, S., Desvachez, A., Blanke, O., Van De Ville, D., Millan, JdR. (2018). Disentangling the origins of confidence in speeded perceptual judgments through multimodal imaging (2020). Proceedings of the National Academy of Science, 117 (15) pp 8382-8390\nhttps://doi.org/10.1073/pnas.1918335117\n\nAlso, please include the following message: 'This data was obtained from the Open Neuro database.'",
     "Name": "Disentangling the origins of confidence in speeded perceptual judgments through multimodal imaging",
     "ReferencesAndLinks": [
         "List of papers or websites"
