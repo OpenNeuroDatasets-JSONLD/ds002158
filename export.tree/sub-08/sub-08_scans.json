@@ -1,0 +1,8 @@
+{
+  "operator": {
+    "LongName": "Operator"
+  },
+  "randstr": {
+    "LongName": "Random string"
+  }
+}
