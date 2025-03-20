@@ -16,7 +16,8 @@
         "n/a",
         " "
       ]
-    }
+    },
+    "Description": "There should have been a description here, but there wasn't. :("
   },
   "sex": {
     "LongName": "Sex",
@@ -39,7 +40,8 @@
           "Label": ""
         }
       }
-    }
+    },
+    "Description": "There should have been a description here, but there wasn't. :("
   },
   "participant_id": {
     "Annotations": {
